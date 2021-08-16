@@ -1,0 +1,162 @@
+h1 {
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.btn {
+    transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    color: white;
+}
+
+.btn-green:hover {
+    color: white;
+}
+
+.btn-white:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.header {
+    background-image: url(banner-bk.jpg);
+    background-size: cover;
+}
+
+.header a {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.btn-green {
+    padding: 10px 30px;
+    background-color: #00ffad;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.btn-darkblue {
+    padding: 10px 30px;
+    background-color: #192440;
+    border-radius: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.btn-white {
+    padding: 10px 30px;
+    border: 2px black solid;
+    border-radius: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.bg-white-green {
+    background: linear-gradient(166deg, white 50%, #00ffad 50%);
+}
+
+.bg-white-green img {
+    width: 500px;
+}
+
+.bg-green {
+    background-color: #00ffad;
+
+}
+
+.bg-darkblue {
+    background-color: #192440;
+    color: white;
+}
+
+.strong-num {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.company {
+    background-color: #eceeef;
+}
+
+.contact-form {
+    background-image: url(contact-bk.jpg);
+    color: white;
+}
+
+.form-group {
+    color: #00ffad;
+}
+
+.form-control,
+.form-control:focus {
+    border: 1px #00ffad solid;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+}
+
+.contact-ul li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #192440;
+    color: white;
+}
+
+.footer i {
+    font-size: 1.2rem;
+    line-height: 40px;
+    color: #192440;
+}
+
+.link-socials:hover {
+    background-color: #00ffad;
+}
+
+.link-socials:hover i {
+    color: white;
+}
+
+.link-socials {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+    margin-left: 0.5rem;
+    transition: all 0.3s ease-out;
+
+}
